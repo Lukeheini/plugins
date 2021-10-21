@@ -209,6 +209,24 @@ class FreezeCommand implements ScriptCommand {
     }
 }
 
+class BloodCommand implements ScriptCommand {
+    public void execute(Client client, PkToolsConfig config, PkToolsPlugin plugin, ConfigManager configManager) {
+        try {
+            int boosted_level = client.getBoostedSkillLevel(Skill.MAGIC);
+
+            if (boosted_level >= 80 && boosted_level < 92) {
+                clickSpell(WidgetInfo.SPELL_BLOOD_BLITZ, client, plugin);
+            } else {
+                clickSpell(WidgetInfo.SPELL_BLOOD_BARRAGE, client, plugin);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+
+
 class FireSurgeCommand implements ScriptCommand {
     public void execute(Client client, PkToolsConfig config, PkToolsPlugin plugin, ConfigManager configManager) {
         try {

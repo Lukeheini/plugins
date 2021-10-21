@@ -30,6 +30,8 @@ public class ScriptCommandFactory
 				return new ProtectFromMissilesCommand();
 			case "freeze":
 				return new FreezeCommand();
+			case "blood":
+				return new BloodCommand();
 			case "firesurge":
 				return new FireSurgeCommand();
 			case "vengeance":

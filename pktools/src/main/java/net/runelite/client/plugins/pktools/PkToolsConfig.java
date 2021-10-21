@@ -9,7 +9,7 @@ public interface PkToolsConfig extends Config
 {
 	String commands = "protectitem, rigour, augury, piety, " +
 		"incrediblereflexes, ultimatestrength, steelskin, eagleeye, mysticmight, " +
-		"freeze, vengeance, teleblock, entangle, spec, wait, group#, id_#, " +
+		"freeze, blood, vengeance, teleblock, entangle, spec, wait, group#, id_#, " +
 		"protectfrommagic, protectfrommissiles, protectfrommelee";
 
 	@ConfigTitle(
