@@ -1,56 +1,14 @@
 [{
   "projectUrl": "https://discord.gg/mgHtrgr",
-  "provider": "ben93riggs",
+  "provider": "Lukeheini",
   "name": "PK Tools",
   "description": "Arsenal of PKing Tools",
   "id": "pktools-plugin",
   "releases": [{
-    "date": "2020-09-04",
-    "sha512sum": "5E6E97022B8BF4C511CFCB3BEFE458D88C307B8715EAAC0C53CA7E0929B3EA45E01E88F79A5902E06F6F5917ED93F1A531B50CEE973B42C7EE7154BF56F24039",
-    "version": "0.12.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-0.12.0.jar?raw=true",
-    "requires": "0.0.1"
-  }, {
-    "date": "2020-10-01",
-    "sha512sum": "B768F338A6CC03FDE9A90F3E36898360226008610BCFDE96949DE495A0D43B33EB2FE50CA3CFD6664E48B4EE98CAE5A07B159A0798D142BF2CE98B4AE08738EA",
-    "version": "0.13.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-0.13.0.jar?raw=true",
-    "requires": "0.0.1"
-  }, {
-    "date": "2020-10-05",
-    "sha512sum": "3FADF092CA049977006727EAA7D308B63730F53477F15D7BD32D49FC573160AE8EA0409DFC47A8598A13D70B0D81EB6D7D84E8E7D9CC559340A6588B823526A6",
-    "version": "0.14.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-0.14.0.jar?raw=true",
-    "requires": "0.0.1"
-  }, {
-    "date": "2020-11-10",
-    "sha512sum": "5F019F69731B686AAC5599EB0C33D8C5CC8076230D7E40475920E06A863407202CADBE8470BB2C2391F3947A6B0222789DC0CCD5F173812998FB695172D7A2D2",
-    "version": "0.15.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-0.15.0.jar?raw=true",
-    "requires": "0.0.1"
-  }, {
-    "date": "2021-02-28",
-    "sha512sum": "F23D165AA84B11F2486F53A78485C274D9892D959F581647DD583A1E768E0C873822FE8613C3D5711334FA3200DAC6D3954B9059A75CA83B784352A668CA3DB3",
-    "version": "1.0.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-1.0.0.jar?raw=true",
-    "requires": "^1.0.0"
-  }, {
-    "date": "2021-06-06",
-    "sha512sum": "CAF7DBCC7590ACF2C0C28298CDEBAC6A41108BEB738E31ECD3AE2619C3A10879DD1F86891AFBC140DBDD4DFFD2F88A4F68B06B0D458533646C6ACA9FC3C83334",
-    "version": "1.1.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-1.1.0.jar?raw=true",
-    "requires": "^1.0.0"
-  }, {
-    "date": "2021-06-22",
-    "sha512sum": "F3B5956C96774B0123C5842A3B041003F074B467E7E2883F569F13514CB095E59C983C2016FA37B56B51C38C6FD3CF90C826495A5F23E56CA1876DC128F5B619",
-    "version": "1.2.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-1.2.0.jar?raw=true",
-    "requires": "^1.0.0"
-  }, {
     "date": "2021-10-21",
     "sha512sum": "F3B5956C96774B0123C5842A3B041003F074B467E7E2883F569F13514CB095E59C983C2016FA37B56B51C38C6FD3CF90C826495A5F23E56CA1876DC128F5B619",
-    "version": "1.3.0",
-    "url": "https://github.com/ben93riggs/plugins/blob/master/release/pktools-1.3.0.jar?raw=true",
+    "version": "1.2.0",
+    "url": "https://github.com/Lukeheini/plugins/blob/master/release/pktools-1.2.0.jar?raw=true",
     "requires": "^1.0.0"
   }]
 }]
