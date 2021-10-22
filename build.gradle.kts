@@ -9,6 +9,20 @@ buildscript {
 plugins {
     java
 }
+allprojects {
+    group = "com.openosrs.externals"
+    apply<MavenPublishPlugin>()
+}
+
+allprojects {
+    apply<MavenPublishPlugin>()
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+}
 
 apply<BootstrapPlugin>()
 apply<VersionPlugin>()
@@ -21,35 +35,28 @@ subprojects {
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
     repositories {
-        maven {
-            url = uri("https://dl.bintray.com")
+        jcenter {
+            content {
+                excludeGroupByRegex("com\\.openosrs.*")
+            }
         }
-        jcenter()
-        maven(url = "https://repo.runelite.net")
-        //maven(url = "https://repo.openosrs.com/repository/maven")
-        mavenLocal()
-        mavenCentral()
-        /*exclusiveContent {
-            /*forRepository {
-                maven {
-                    url = uri("https://raw.githubusercontent.com/open-osrs/hosting/master")
-                }
-            }*/
-            /*filter {
-                includeModule("net.runelite", "fernflower")
-                includeModule("com.openosrs.rxrelay3", "rxrelay")
-            }*/
-        }*/
+
+        exclusiveContent {
+            forRepository {
+                mavenLocal()
+            }
+            filter {
+                includeGroupByRegex("com\\.openosrs.*")
+            }
+        }
     }
+
     apply<JavaPlugin>()
     apply<JavaLibraryPlugin>()
 
     dependencies {
         annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
         annotationProcessor(group = "org.pf4j", name = "pf4j", version = "3.2.0")
-        implementation(group = "ch.qos.logback", name = "logback-classic", version = "1.2.3")
-        implementation(group = "com.google.code.gson", name = "gson", version = "2.8.6")
-        implementation(group = "com.google.guava", name = "guava", version = "28.2-jre")
         implementation(group = "com.google.inject", name = "guice", version = "4.2.3", classifier = "no_aop")
         implementation(group = "com.openosrs", name = "http-api", version = "$rlVersion+")
         implementation(group = "com.openosrs", name = "runelite-api", version = "$rlVersion+")

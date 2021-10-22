@@ -1,23 +1,7 @@
 rootProject.name = "ben93riggs Plugins"
 
-include(":autothiever")
-include(":ardyironpowerminer")
-include(":cannonreloader")
-include(":continueclicker")
-include(":constructionhelper")
-include(":eventdebugger")
-include(":foodeater")
-include(":gildedaltar")
-include(":hydraautoprayer")
-include(":itemcombiner")
-include(":itemuser")
-include(":jadautoprayer")
-include(":lavacrafter")
-include(":nightmarehelper")
-include(":nmzhelper")
+
 include(":pktools")
-include(":praypotdrinker")
-include(":specialattackuser")
 
 for (project in rootProject.children) {
     project.apply {
