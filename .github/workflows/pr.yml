@@ -1,4 +1,4 @@
-name: ben93riggs/plugins - CI (PR)
+name: Lukeheini/plugins - CI (PR)
 
 on:
   pull_request:

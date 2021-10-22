@@ -28,7 +28,7 @@ apply<BootstrapPlugin>()
 apply<VersionPlugin>()
 
 subprojects {
-    group = "com.ben93riggs.externals"
+    group = "com.Lukeheini.externals"
 
     project.extra["PluginProvider"] = "Lukeheini"
     project.extra["ProjectUrl"] = "https://discord.gg/mgHtrgr"

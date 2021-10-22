@@ -16,7 +16,7 @@ import kotlin.collections.ArrayList
 
 open class BootstrapTask : DefaultTask() {
 
-    private var repoURL: String = "ben93riggs/plugins"
+    private var repoURL: String = "Lukeheini/plugins"
 
     private fun formatDate(date: Date?) = with(date ?: Date()) {
         SimpleDateFormat("yyyy-MM-dd").format(this)
