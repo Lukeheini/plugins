@@ -7,8 +7,8 @@
   "releases": [{
     "date": "2021-10-21",
     "sha512sum": "F3B5956C96774B0123C5842A3B041003F074B467E7E2883F569F13514CB095E59C983C2016FA37B56B51C38C6FD3CF90C826495A5F23E56CA1876DC128F5B619",
-    "version": "1.4.0",
-    "url": "https://github.com/Lukeheini/plugins/blob/master/release/pktools-1.4.0.jar?raw=true",
+    "version": "1.3.0",
+    "url": "https://github.com/Lukeheini/plugins/blob/master/release/pktools-1.3.0.jar?raw=true",
     "requires": "^1.0.0"
   }]
 }]
